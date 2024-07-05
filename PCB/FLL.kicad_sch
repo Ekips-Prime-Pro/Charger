@@ -770,168 +770,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4007"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4007"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4007_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4007_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:LM317L_SOT-89"
 			(pin_names
 				(offset 0.254)
@@ -1192,6 +1030,126 @@
 				)
 			)
 		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+7.5V"
 			(power)
 			(pin_numbers hide)
@@ -1312,7 +1270,7 @@
 				)
 			)
 		)
-		(symbol "power:AC"
+		(symbol "power:-24V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1321,7 +1279,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1329,8 +1287,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "AC"
-				(at 0 6.35 0)
+			(property "Value" "-24V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1355,7 +1313,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"AC\""
+			(property "Description" "Power symbol creates a global label with name \"-24V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1373,56 +1331,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AC_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid -0.635 3.8073)
-					(end -1.27 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 0.635 2.5427)
-					(end 1.27 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AC_1_1"
+			(symbol "-24V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1439,6 +1348,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "-24V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -1571,22 +1494,10 @@
 		(uuid "5068fc89-cd2b-42be-8a9c-6cd9865c9c8f")
 	)
 	(junction
-		(at 113.03 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a57dda4-5e56-455f-b076-b0a7c1dd7d7b")
-	)
-	(junction
 		(at 143.51 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "776232b5-06e2-4507-a3d8-fadf99d094d2")
-	)
-	(junction
-		(at 92.71 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cec0494-30b3-42fd-b9f6-390c922b9140")
 	)
 	(junction
 		(at 152.4 93.98)
@@ -1595,16 +1506,16 @@
 		(uuid "85698bda-bc34-47b2-ba18-feced3f1514a")
 	)
 	(junction
+		(at 119.38 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d659ee9-ffc6-4b60-a27b-2919e1aebe2e")
+	)
+	(junction
 		(at 123.19 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f2473fa-cd8b-4360-b67e-8ae893c5610d")
-	)
-	(junction
-		(at 102.87 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a104e14c-fb30-42ba-b75f-bac2a868baff")
 	)
 	(junction
 		(at 123.19 71.12)
@@ -1613,16 +1524,10 @@
 		(uuid "ade793d4-8dc9-4345-b8e6-2f98b175aeb4")
 	)
 	(junction
-		(at 119.38 71.12)
+		(at 119.38 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0cded1e-2453-411c-a953-6f8031865d38")
-	)
-	(junction
-		(at 102.87 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0db55dd-d6ab-478e-b194-7fc0b4b0552d")
+		(uuid "b505b8fd-7abc-4011-9866-b89a082fc7c5")
 	)
 	(junction
 		(at 212.09 91.44)
@@ -1637,16 +1542,10 @@
 		(uuid "c715deb3-8d54-4ea2-8d39-687411b66780")
 	)
 	(junction
-		(at 119.38 93.98)
+		(at 181.61 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8a519f2-b7d6-408d-bbe2-bffa34501d77")
-	)
-	(junction
-		(at 102.87 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd10300d-63a3-4978-9bd3-e143fc85f1c1")
+		(uuid "e042c67e-6de1-4302-8b34-04bc606b38d0")
 	)
 	(junction
 		(at 162.56 83.82)
@@ -1657,10 +1556,6 @@
 	(no_connect
 		(at 237.49 55.88)
 		(uuid "262f9817-bb70-4975-a062-e5b98750829e")
-	)
-	(no_connect
-		(at 115.57 71.12)
-		(uuid "6081a9d5-28af-44c5-bc9d-b1d9cb9545b8")
 	)
 	(no_connect
 		(at 133.35 93.98)
@@ -1687,6 +1582,16 @@
 			(type default)
 		)
 		(uuid "0976c3d3-c125-4cf8-bc0f-21f76c432047")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d448b3b-c9f4-4b95-b616-53c3141fd1e9")
 	)
 	(wire
 		(pts
@@ -1730,13 +1635,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 92.71 85.09)
+			(xy 181.61 86.36) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18ad1d91-e9a4-460b-a334-6451e88aecff")
+		(uuid "1737c97d-f022-4345-bc7c-f0fdcbae9013")
 	)
 	(wire
 		(pts
@@ -1750,16 +1655,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 105.41 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a27f864-8cf6-4534-8b51-f643e70306dc")
-	)
-	(wire
-		(pts
 			(xy 119.38 85.09) (xy 119.38 93.98)
 		)
 		(stroke
@@ -1767,6 +1662,16 @@
 			(type default)
 		)
 		(uuid "1db53d6f-abbe-48ae-ad46-839ce71d82f2")
+	)
+	(wire
+		(pts
+			(xy 110.49 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265ae888-0732-426b-9928-028937c3f4bc")
 	)
 	(wire
 		(pts
@@ -1787,16 +1692,6 @@
 			(type default)
 		)
 		(uuid "3089732a-c1c7-4169-9d4e-6b1a36a7291b")
-	)
-	(wire
-		(pts
-			(xy 87.63 67.31) (xy 87.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3223a48d-e6c3-48f3-ba82-7615748d36cb")
 	)
 	(wire
 		(pts
@@ -1840,13 +1735,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 87.63 67.31)
+			(xy 104.14 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b0d70e0-1072-4ae6-b1d8-01a2ef12ce47")
+		(uuid "4abcf1da-505b-419f-83ba-5f33e1d182f9")
 	)
 	(wire
 		(pts
@@ -1870,16 +1765,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 92.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51dce1a0-2ff6-4fde-a7d3-3e8a73e9c43f")
-	)
-	(wire
-		(pts
 			(xy 142.24 97.79) (xy 135.89 97.79)
 		)
 		(stroke
@@ -1900,26 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 113.03 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b97ff04-a364-48b0-bfd4-99e96c16ba4b")
-	)
-	(wire
-		(pts
-			(xy 100.33 90.17) (xy 102.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677266d2-3dfd-4a4b-80a5-acffbcd68112")
-	)
-	(wire
-		(pts
 			(xy 119.38 93.98) (xy 123.19 93.98)
 		)
 		(stroke
@@ -1927,6 +1792,16 @@
 			(type default)
 		)
 		(uuid "69d92984-5d6c-494d-85a8-6d2e4d14dd71")
+	)
+	(wire
+		(pts
+			(xy 104.14 63.5) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb429b6-41e6-4eb3-9ff5-3d25f9fe38fa")
 	)
 	(wire
 		(pts
@@ -2000,16 +1875,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 71.12) (xy 119.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8fb7dc-13ef-43bd-9638-b7503efcb690")
-	)
-	(wire
-		(pts
 			(xy 212.09 66.04) (xy 212.09 91.44)
 		)
 		(stroke
@@ -2040,26 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 115.57 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee24bb1-f26b-4103-a5e9-48c71ab2a30e")
-	)
-	(wire
-		(pts
-			(xy 87.63 85.09) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3281cae-c7e3-4783-8e94-a349412476b7")
-	)
-	(wire
-		(pts
 			(xy 176.53 83.82) (xy 176.53 76.2)
 		)
 		(stroke
@@ -2070,16 +1915,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 115.57 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6beb89d-5235-40e2-a08f-938f8a6a28a5")
-	)
-	(wire
-		(pts
 			(xy 143.51 83.82) (xy 144.78 83.82)
 		)
 		(stroke
@@ -2087,16 +1922,6 @@
 			(type default)
 		)
 		(uuid "acb19590-8bd1-4d29-a1da-829d7e76581b")
-	)
-	(wire
-		(pts
-			(xy 102.87 80.01) (xy 102.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02ca7b8-f6d9-4ced-82de-689007ce7ed3")
 	)
 	(wire
 		(pts
@@ -2130,23 +1955,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 80.01) (xy 113.03 85.09)
+			(xy 181.61 101.6) (xy 191.77 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b764e825-45de-410b-8cff-b8ece1d4500e")
-	)
-	(wire
-		(pts
-			(xy 102.87 93.98) (xy 102.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e46282-6e29-4fea-9c2a-5f37143ce64d")
+		(uuid "c8c74b97-9297-44e5-8b66-b99bcf9a7ce6")
 	)
 	(wire
 		(pts
@@ -2160,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 191.77 101.6)
+			(xy 133.35 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2190,13 +2005,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 119.38 93.98)
+			(xy 110.49 63.5) (xy 110.49 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3801ff7-847d-4a52-af4b-e9791cd27637")
+		(uuid "e33f8879-eaff-41c1-a774-97aca3f1522b")
 	)
 	(wire
 		(pts
@@ -2207,16 +2022,6 @@
 			(type default)
 		)
 		(uuid "e5158b73-17ca-4a7a-82b0-6c1ac0bb70e4")
-	)
-	(wire
-		(pts
-			(xy 102.87 90.17) (xy 105.41 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66dbbb6-2e6e-4a82-a81a-0b2e798e0b2b")
 	)
 	(wire
 		(pts
@@ -2240,16 +2045,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef38cf70-937a-4197-8a94-07ee9c44d797")
-	)
-	(wire
-		(pts
 			(xy 135.89 97.79) (xy 135.89 78.74)
 		)
 		(stroke
@@ -2267,16 +2062,6 @@
 			(type default)
 		)
 		(uuid "f546afa7-e460-48ee-881f-035c721fd026")
-	)
-	(wire
-		(pts
-			(xy 100.33 80.01) (xy 102.87 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a05557-b161-4014-9ea6-2a3491361efe")
 	)
 	(text "04.07.2024"
 		(exclude_from_sim no)
@@ -2298,15 +2083,15 @@
 		)
 		(uuid "623acd24-7b32-474d-bf48-4a6987a8e482")
 	)
-	(text "Gleichrichter"
+	(text "Powersupply 16V"
 		(exclude_from_sim no)
-		(at 104.648 60.198 0)
+		(at 107.696 55.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "67854882-534b-4b44-8c20-e21171b1223b")
+		(uuid "660e2ed5-7ddd-434c-9678-6ee265c53fff")
 	)
 	(text "Spannungsregler"
 		(exclude_from_sim yes)
@@ -2458,93 +2243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 109.22 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12737402-7693-4db5-965d-d0db15554abf")
-		(property "Reference" "D1"
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 109.22 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 109.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 109.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 109.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "049806de-46a3-489b-803a-9f23dafd8e0c")
-		)
-		(pin "1"
-			(uuid "e92abdf8-e79c-4f7d-ab3e-cd7d7b41072f")
-		)
-		(instances
-			(project ""
-				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 201.93 101.6 180)
 		(unit 1)
@@ -2681,34 +2379,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 109.22 90.17 0)
-		(mirror y)
+		(lib_id "power:+24V")
+		(at 104.14 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45143423-7513-4d37-9eea-03dd14a93777")
-		(property "Reference" "D4"
-			(at 109.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 109.22 94.615 0)
+		(uuid "3e85d84f-212f-4496-bb1d-2dd212470bb1")
+		(property "Reference" "#PWR07"
+			(at 104.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,8 +2397,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 109.22 90.17 0)
+		(property "Value" "+16V"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,8 +2414,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 109.22 90.17 0)
+		(property "Datasheet" ""
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,34 +2423,22 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 109.22 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "093ac0eb-6ce9-4fb0-8885-40afe333ed02")
 		)
 		(pin "1"
-			(uuid "926716ed-1d8a-4c8b-8f6e-15ce2c8c8de4")
+			(uuid "33b8ce3e-05e2-4820-ab44-f0c71c18012a")
 		)
 		(instances
-			(project "FLL"
+			(project ""
 				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "D4")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3101,6 +2778,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 181.61 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfcd6e40-927b-4067-8884-e52e9fe0698b")
+		(property "Reference" "POT3"
+			(at 184.15 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 184.15 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.832 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e3978c2-ea59-43c1-89a8-76efa6316ccf")
+		)
+		(pin "1"
+			(uuid "bc9515e4-06eb-418a-8445-8a3284cee6b1")
+		)
+		(instances
+			(project "FLL"
+				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
+					(reference "POT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-24V")
+		(at 110.49 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3d306b3-f245-4d5a-a729-1a6fdca1e520")
+		(property "Reference" "#PWR03"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-16V"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-24V\""
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46be2e74-267d-42a2-97ab-c21106ab641d")
+		)
+		(instances
+			(project ""
+				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:MCP73831-2-MC")
 		(at 191.77 83.82 0)
 		(unit 1)
@@ -3392,246 +3205,6 @@
 			(project ""
 				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 102.87 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e157a23a-ea28-4543-9aff-63f3b33cf936")
-		(property "Reference" "#PWR03"
-			(at 102.87 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC"
-			(at 102.87 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 102.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b28f41e4-29f5-4500-ad37-ff2add51f911")
-		)
-		(instances
-			(project "FLL"
-				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 96.52 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef70fe72-041d-4911-bbd3-60bccb0468a0")
-		(property "Reference" "D3"
-			(at 96.52 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 96.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 96.52 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 96.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 96.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 96.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec0891e0-30c3-43ee-a253-ea01af0a9b9c")
-		)
-		(pin "1"
-			(uuid "6e5b3b6e-a7d9-4d15-a7c1-5720a8ef3583")
-		)
-		(instances
-			(project "FLL"
-				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 96.52 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efb4aac7-4ec8-4554-918a-c34a8e809729")
-		(property "Reference" "D2"
-			(at 96.52 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 96.52 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 96.52 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b44db9b-ce5d-4d3e-814c-03a36d358ec3")
-		)
-		(pin "1"
-			(uuid "e776a137-9d1e-4c48-badd-1c0016f38277")
-		)
-		(instances
-			(project "FLL"
-				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "D2")
 					(unit 1)
 				)
 			)
