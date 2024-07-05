@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "eebf961a-9e34-427c-a1d5-e0dfc5b48cc6")
 	(paper "A4")
+	(title_block
+		(title "LargeHubBattery Charger LEGO: 45610")
+		(date "04.07.2024")
+		(company "https://github.com/Ekips-Prime-Pro")
+		(comment 1 "1. Powersupply, 2. Flattening, 3. Spanungsregler, 4.Batterieladeregler")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-MC"
 			(exclude_from_sim no)
@@ -2352,16 +2358,6 @@
 		)
 		(uuid e8314ff7-65fa-48f6-a6f8-9c951921f4d0)
 	)
-	(text "04.07.2024"
-		(exclude_from_sim no)
-		(at 211.836 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "092d356b-4d98-4ea0-8f5e-0b83145f90f1")
-	)
 	(text "Flattening"
 		(exclude_from_sim no)
 		(at 78.232 102.362 0)
@@ -2371,16 +2367,6 @@
 			)
 		)
 		(uuid "1b2853fa-9582-44d4-9f0a-9ee6055ae746")
-	)
-	(text "First Layer"
-		(exclude_from_sim no)
-		(at 191.77 189.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "623acd24-7b32-474d-bf48-4a6987a8e482")
 	)
 	(text "Powersupply 16V AC"
 		(exclude_from_sim no)
