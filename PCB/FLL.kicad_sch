@@ -5,7 +5,7 @@
 	(uuid "eebf961a-9e34-427c-a1d5-e0dfc5b48cc6")
 	(paper "A4")
 	(title_block
-		(title "LargeHubBattery Charger LEGO: 45610")
+		(title "Large Hub Battery LEGO: 45610 | Charger")
 		(date "04.07.2024")
 		(company "https://github.com/Ekips-Prime-Pro")
 		(comment 1 "1. Powersupply, 2. Spanungsregler, 3.Batterieladeregler")
@@ -1427,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 97.79 153.67)
+			(xy 97.79 124.46) (xy 97.79 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 97.79 106.68)
+			(xy 66.04 124.46) (xy 97.79 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 66.04 106.68)
+			(xy 66.04 99.06) (xy 66.04 124.46)
 		)
 		(stroke
 			(width 0)
