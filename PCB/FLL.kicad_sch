@@ -961,207 +961,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N3819"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3819"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://my.centralsemi.com/datasheets/2N3819.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "20mA Id, 25V Vgs, N-Channel JFET Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel JFET Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3819_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3819_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+1V0"
 			(power)
 			(pin_numbers hide)
@@ -1500,22 +1299,16 @@
 		)
 	)
 	(junction
-		(at 200.66 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12da7807-ef4e-4516-9e53-722e0de6abf8")
-	)
-	(junction
 		(at 152.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f37961a-c6b5-4e31-92d0-7cbdbeaadee8")
 	)
 	(junction
-		(at 179.07 146.05)
+		(at 179.07 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49b31e65-7be5-4df3-b70b-c1b489d2d5db")
+		(uuid "31cd2df0-8e35-42a2-9c66-f350435f9548")
 	)
 	(junction
 		(at 115.57 76.2)
@@ -1530,22 +1323,16 @@
 		(uuid "52a0bbab-cb11-43c0-860b-369fed205416")
 	)
 	(junction
-		(at 189.23 140.97)
+		(at 207.01 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "840ec637-34e0-4330-a8d6-9f5a14a5cce4")
+		(uuid "6f6317ec-bf0f-4456-a511-0d3b29ab919e")
 	)
 	(junction
 		(at 132.08 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85698bda-bc34-47b2-ba18-feced3f1514a")
-	)
-	(junction
-		(at 207.01 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b48bdfd6-b0f7-4163-9d60-313141150dcf")
 	)
 	(junction
 		(at 115.57 97.79)
@@ -1659,16 +1446,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 138.43) (xy 189.23 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1158928c-3f19-455c-8d68-039bdb84c3ce")
-	)
-	(wire
-		(pts
 			(xy 207.01 118.11) (xy 207.01 133.35)
 		)
 		(stroke
@@ -1759,16 +1536,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 153.67) (xy 179.07 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497b2e4a-a92d-4f39-a806-05b6962fd388")
-	)
-	(wire
-		(pts
 			(xy 140.97 76.2) (xy 115.57 76.2)
 		)
 		(stroke
@@ -1799,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 189.23 153.67)
+			(xy 189.23 138.43) (xy 189.23 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1816,6 +1583,16 @@
 			(type default)
 		)
 		(uuid "67f7050a-5175-4a9f-b1ee-727f3ce3c168")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 207.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f09bf95-50fa-475f-8b08-e244a4342877")
 	)
 	(wire
 		(pts
@@ -1839,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 118.11) (xy 200.66 133.35)
+			(xy 200.66 118.11) (xy 200.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 146.05) (xy 179.07 143.51)
+			(xy 179.07 143.51) (xy 179.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1866,16 +1643,6 @@
 			(type default)
 		)
 		(uuid "9da0d135-4e44-48cb-8144-f96ecac1883a")
-	)
-	(wire
-		(pts
-			(xy 200.66 143.51) (xy 199.39 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e04e613-bcea-4c1d-87a7-11a58ba39446")
 	)
 	(wire
 		(pts
@@ -1899,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 146.05) (xy 199.39 146.05)
+			(xy 179.07 143.51) (xy 200.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1919,16 +1686,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 133.35) (xy 200.66 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d6a7bc-cfe1-41ad-b529-b784dc903dda")
-	)
-	(wire
-		(pts
 			(xy 168.91 153.67) (xy 179.07 153.67)
 		)
 		(stroke
@@ -1936,16 +1693,6 @@
 			(type default)
 		)
 		(uuid "c8c74b97-9297-44e5-8b66-b99bcf9a7ce6")
-	)
-	(wire
-		(pts
-			(xy 200.66 133.35) (xy 207.01 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd3ca036-259e-42c7-8eaa-94e139d00b4f")
 	)
 	(wire
 		(pts
@@ -1969,16 +1716,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 140.97) (xy 189.23 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0676b78-f4e9-4317-b21e-207525870a35")
-	)
-	(wire
-		(pts
 			(xy 142.24 83.82) (xy 142.24 86.36)
 		)
 		(stroke
@@ -1996,16 +1733,6 @@
 			(type default)
 		)
 		(uuid "e5158b73-17ca-4a7a-82b0-6c1ac0bb70e4")
-	)
-	(wire
-		(pts
-			(xy 199.39 146.05) (xy 199.39 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1b7b50-a6d2-4f65-8bc8-1a672cb36884")
 	)
 	(wire
 		(pts
@@ -2036,16 +1763,6 @@
 			(type default)
 		)
 		(uuid "f546afa7-e460-48ee-881f-035c721fd026")
-	)
-	(wire
-		(pts
-			(xy 190.5 133.35) (xy 189.23 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff504a71-fa69-4e02-8970-f111599ab026")
 	)
 	(rectangle
 		(start 163.83 109.22)
@@ -3010,81 +2727,6 @@
 			(project "FLL"
 				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N3819")
-		(at 195.58 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e385de3b-1a8e-4249-a904-2320e4a4a17e")
-		(property "Reference" "Q1"
-			(at 194.3099 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3819"
-			(at 196.596 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 197.485 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/2N3819.PDF"
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "20mA Id, 25V Vgs, N-Channel JFET Transistor, TO-92"
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f10e0fd5-ce44-43e0-a0f7-aea409d887c4")
-		)
-		(pin "2"
-			(uuid "34b396b2-9591-4858-aa76-f6688973f56b")
-		)
-		(pin "3"
-			(uuid "73347bc4-b1dc-4260-aa32-bd11a9c2f958")
-		)
-		(instances
-			(project ""
-				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
