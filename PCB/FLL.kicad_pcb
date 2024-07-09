@@ -644,7 +644,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "POT3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "62efd981-4fc2-4322-aaf9-1c88e8715bb0")
 			(effects
@@ -655,7 +655,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cb2556c0-79af-4664-8491-84aaeabf221a")
 			(effects
@@ -810,7 +810,7 @@
 			(uuid "5d3e47f5-a49d-4cd4-91ef-b1a0307f1967")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "399db80d-3520-4d74-8ed7-b335e21807ff")
 			(effects
@@ -1536,7 +1536,7 @@
 			(remove_unused_layers no)
 			(net 8 "Net-(U2-V_{DD})")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "775fdb48-1648-430a-893a-007d4afaa385")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RG300.wrl"
 			(offset
@@ -1984,7 +1984,7 @@
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at 0 -2.4 90)
+			(at 0 2.5 90)
 			(layer "F.SilkS")
 			(uuid "8fb87dd2-e6ae-4591-aa82-5a8990246ee6")
 			(effects
@@ -2335,7 +2335,7 @@
 			(remove_unused_layers no)
 			(net 7 "-7.5V")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "ca57c35c-7627-4928-83ea-cbd5423e0431")
 		)
 	)
 	(footprint ""
@@ -2408,7 +2408,7 @@
 			(remove_unused_layers no)
 			(net 7 "-7.5V")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "590528b0-4a5b-4933-a51c-2109c5c94bca")
 		)
 	)
 	(footprint ""
@@ -2418,7 +2418,7 @@
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "1bed520c-79cf-4f90-8fcc-dc8f9c64202d")
+			(uuid "c543e630-3ce4-43a3-b078-7b1073cfa4e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2429,7 @@
 		(property "Value" ""
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "431330e2-51eb-458a-a13e-29a1a06de16e")
+			(uuid "ec3b9d7d-9a90-4526-8a15-483ffdc4b6c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 			(remove_unused_layers no)
 			(net 6 "Net-(U3-VI)")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "273b1d94-ef2e-4e06-8ad8-37697e02c5c9")
 		)
 	)
 	(footprint ""
@@ -2491,7 +2491,7 @@
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "2ff4ffc1-02cc-402d-9fa7-ca26ac2354e1")
+			(uuid "db2b0851-7ad4-409d-a9bf-9eceabe1c7d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2502,7 @@
 		(property "Value" ""
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c89f6d90-a60a-4de9-b014-e2022ce08153")
+			(uuid "b0e8b6fc-ec50-470b-9bf4-592a23b46f1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2554,7 @@
 			(remove_unused_layers no)
 			(net 5 "GND")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "6c1504b5-78bf-430f-aaec-75aabf7ad114")
 		)
 	)
 	(footprint ""
@@ -2564,7 +2564,7 @@
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "2ff4ffc1-02cc-402d-9fa7-ca26ac2354e1")
+			(uuid "52f082c5-1bf1-4208-9de4-187123fbed3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 		(property "Value" ""
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c89f6d90-a60a-4de9-b014-e2022ce08153")
+			(uuid "5801a26a-1c90-4759-899f-b4108e0c79d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,17 +2627,17 @@
 			(remove_unused_layers no)
 			(net 4 "+1V0")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "594d54bb-04bf-4fc3-88d5-011f6397292e")
 		)
 	)
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "d20d081d-fcca-4c0d-85f7-f66ca298a439")
-		(at 156.5 53.5)
+		(at 158 52.5)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "2ff4ffc1-02cc-402d-9fa7-ca26ac2354e1")
+			(uuid "fa9a9c3b-0121-49da-9d13-332f58f67fbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2648,7 @@
 		(property "Value" ""
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c89f6d90-a60a-4de9-b014-e2022ce08153")
+			(uuid "726d65fd-45a1-4ac1-8c68-03f8660bbdc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2700,7 @@
 			(remove_unused_layers no)
 			(net 1 "+7.5V")
 			(pintype "passive")
-			(uuid "b5cc998c-eb97-4e58-bdcf-a57c58c9ff53")
+			(uuid "29b7307f-0cf7-4015-bdb7-4ddb903ce089")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-89-3"
@@ -3420,13 +3420,72 @@
 			)
 		)
 	)
+	(gr_line
+		(start 130 31.5)
+		(end 161.5 31.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "198f36eb-a80e-476b-b7a1-baffcdcf0676")
+	)
+	(gr_line
+		(start 130 55)
+		(end 130 31.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "51481833-e307-48b5-889f-62032f0244c7")
+	)
+	(gr_line
+		(start 161.5 31.5)
+		(end 161.5 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a4a1b33d-661f-47c8-80c0-b0a387585e19")
+	)
+	(gr_line
+		(start 161.5 55)
+		(end 130 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8d4edd0-7217-458a-84f5-9441939913e8")
+	)
+	(gr_text "Ekips Prime Pro Charger(c)"
+		(at 160 43.5 90)
+		(layer "F.SilkS")
+		(uuid "91fca481-d801-468a-b313-bcab2879c8f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(segment
-		(start 154.45 53)
-		(end 154.95 53.5)
+		(start 154.8625 52.6375)
+		(end 155 52.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "3f834109-a742-4924-90b6-495dbb84fe30")
+		(uuid "3d91ea99-a1be-4a16-b02f-25d043fc2b7b")
+	)
+	(segment
+		(start 155 52.5)
+		(end 158 52.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "3f362118-e2ce-4a71-873b-24b9d7267381")
 	)
 	(segment
 		(start 153.849999 53.9)
@@ -3461,20 +3520,20 @@
 		(uuid "befba655-e44a-4114-a56b-6194c64421f1")
 	)
 	(segment
-		(start 154.95 53.5)
-		(end 156.5 53.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "c3024c0d-5bfe-423e-97e5-2f3031da6d6c")
-	)
-	(segment
 		(start 154.45 53.299999)
 		(end 153.849999 53.9)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "d393b87c-cbeb-49d8-a1bd-7d572e4d5e36")
+	)
+	(segment
+		(start 154.45 52.6375)
+		(end 154.8625 52.6375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "ee0e3d1d-14f5-43d6-a87e-b82a1f7793fa")
 	)
 	(segment
 		(start 154.45 52.6375)
