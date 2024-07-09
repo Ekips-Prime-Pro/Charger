@@ -131,11 +131,11 @@
 	(footprint "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0496ccdc-3f28-43c2-8824-3117bb218b31")
-		(at 132.0125 44.445)
+		(at 132.0125 43.7425)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
-		(property "Reference" "C3"
-			(at 7.5 -0.2425 0)
+		(property "Reference" "C3|0,47uF"
+			(at 7.5 0.055 0)
 			(layer "F.SilkS")
 			(uuid "38e0901d-519a-4102-afc2-afb42507bdfd")
 			(effects
@@ -148,6 +148,7 @@
 		(property "Value" "0,47uF"
 			(at 7.9875 1.555 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bdced585-cc65-46bd-8aba-fe01e780f9fb")
 			(effects
 				(font
@@ -852,11 +853,11 @@
 	(footprint "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "201f0fb5-7f01-47c2-8cf2-04d82d5c40ee")
-		(at 132.0125 50.98)
+		(at 132 49.7425)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
-		(property "Reference" "C4"
-			(at 7.5 -0.2425 0)
+		(property "Reference" "C4|4,5uF"
+			(at 8 0.2575 0)
 			(layer "F.SilkS")
 			(uuid "40b67c0f-95cf-48c1-b189-c66631769bb0")
 			(effects
@@ -869,6 +870,7 @@
 		(property "Value" "4,5uF"
 			(at 7.9875 1.52 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "32fadf1b-b4a3-4fd8-a2dd-5ebf2b95100d")
 			(effects
 				(font
@@ -1240,17 +1242,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "acb9be70-87b5-4cee-a93e-ba1f73edaf33")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 7.5 0 0)
-			(layer "F.Fab")
-			(uuid "dc184714-3c45-486b-8315-266d3ff56466")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0)
@@ -1792,6 +1783,7 @@
 		(property "Value" "1,4kΩ"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e5bbe5df-2f22-4646-b1f9-27d097bd7797")
 			(effects
 				(font
@@ -2003,8 +1995,9 @@
 			)
 		)
 		(property "Value" "MCP73831-2-OT"
-			(at 0 2.4 90)
+			(at 3 5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7925b9db-5bac-49bb-9347-3732e1a7e39d")
 			(effects
 				(font
@@ -2997,7 +2990,7 @@
 		(at 132.0125 37.91)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
-		(property "Reference" "C1"
+		(property "Reference" "C1|1uF"
 			(at 7.5 0.09 0)
 			(layer "F.SilkS")
 			(uuid "d9cad1df-cc95-4c7f-bf4c-4b1cd84b1a58")
@@ -3011,6 +3004,7 @@
 		(property "Value" "1uF"
 			(at 7.5 1.59 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1a505997-9872-4f0a-977a-9ee7328ffaac")
 			(effects
 				(font
@@ -3384,7 +3378,7 @@
 			(uuid "e1f71825-6f37-4c49-8848-b60009de0814")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 0 0)
+			(at 7.4875 0.09 0)
 			(layer "F.Fab")
 			(uuid "406e797d-8092-4833-8f42-a005555982dd")
 			(effects
@@ -3443,20 +3437,28 @@
 		(uuid "5fd1d73c-4836-4d2f-93e9-8d92b62bf485")
 	)
 	(segment
+		(start 132.0125 50.98)
+		(end 134.9325 53.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "91c23d11-2c3f-4c4f-9c0f-a899b11befc7")
+	)
+	(segment
+		(start 132.0125 49.7425)
+		(end 132.0125 50.98)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9cb9c63f-64ba-4fb7-ae8b-cd4d18a921ba")
+	)
+	(segment
 		(start 154.45 52.6375)
 		(end 154.45 53)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "befba655-e44a-4114-a56b-6194c64421f1")
-	)
-	(segment
-		(start 132.0125 50.98)
-		(end 134.9325 53.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "c1de513d-b2e4-4836-9ff9-7acddf4db2a3")
 	)
 	(segment
 		(start 154.95 53.5)
@@ -3595,6 +3597,14 @@
 		(uuid "24cb6c46-7e60-4b0d-86f2-21fac568474c")
 	)
 	(segment
+		(start 132.0125 37.91)
+		(end 132.0125 43.7425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "443ba6ae-ae6f-4639-8ac6-4b49d968451b")
+	)
+	(segment
 		(start 132.0875 37.835)
 		(end 132.0125 37.91)
 		(width 0.2)
@@ -3609,14 +3619,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "82817c94-1664-43d7-a24c-617a8f22a40b")
-	)
-	(segment
-		(start 132.0125 37.91)
-		(end 132.0125 44.445)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "9e3dbc2a-ff61-4e14-93a5-40707bcf7dd7")
 	)
 	(segment
 		(start 135 34)
@@ -3635,12 +3637,12 @@
 		(uuid "c704d930-e696-4198-b3ce-56523f933228")
 	)
 	(segment
-		(start 147.0125 44.445)
-		(end 147.0125 42.0375)
+		(start 150.05 41.45)
+		(end 150 41.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "4ed46c33-f4f1-4b42-8361-8981b4c6b736")
+		(uuid "77a7610c-538c-4ff9-8092-e977e55bbd8e")
 	)
 	(segment
 		(start 147.0125 42.0375)
@@ -3648,15 +3650,15 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "642ebe02-3fd7-47f1-976c-4f120026cc98")
+		(uuid "adf03e66-23cd-40e2-a18a-91a89edb5c6a")
 	)
 	(segment
-		(start 150.05 41.45)
-		(end 150 41.5)
+		(start 147.0125 43.7425)
+		(end 147.0125 42.0375)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "77a7610c-538c-4ff9-8092-e977e55bbd8e")
+		(uuid "c57970d4-e973-4754-9c33-f778c1f1a18b")
 	)
 	(segment
 		(start 150.05 39)
@@ -3673,14 +3675,6 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "0c318c97-96a1-473f-b857-7616051be719")
-	)
-	(segment
-		(start 150.5875 49.703052)
-		(end 148.289448 49.703052)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "1d61f234-809b-4c31-9762-570b17c5a082")
 	)
 	(segment
 		(start 152.384448 51.5)
@@ -3715,14 +3709,6 @@
 		(uuid "4a80068f-e8ed-4175-a5e0-26b4f6f39fca")
 	)
 	(segment
-		(start 147.3575 51.325)
-		(end 147.0125 50.98)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "50c8728c-d0ca-4bf1-9ecc-d975ba835279")
-	)
-	(segment
 		(start 150.5875 47)
 		(end 150.5875 49.703052)
 		(width 0.2)
@@ -3739,12 +3725,28 @@
 		(uuid "886f0d82-8d88-427d-8a2f-a41a1cbf7af7")
 	)
 	(segment
+		(start 147.0125 49.7425)
+		(end 150.548052 49.7425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "8882d6ef-a4fd-490e-bfc6-8c65275cabec")
+	)
+	(segment
 		(start 151.5 46)
 		(end 150.5875 46)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 7)
 		(uuid "9ddd0d6a-c20a-4d65-a3c7-263803d66e9f")
+	)
+	(segment
+		(start 150.548052 49.7425)
+		(end 150.5875 49.703052)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "d59c7991-0067-4dc8-bd9f-3299f7cea00d")
 	)
 	(segment
 		(start 153.024999 51.5)
@@ -3761,14 +3763,6 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "dbd57254-4bb8-480d-99b1-aea320c05f9c")
-	)
-	(segment
-		(start 148.289448 49.703052)
-		(end 147.0125 50.98)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "de0a09b8-9dcb-4852-a248-3c85eaac8b44")
 	)
 	(segment
 		(start 150.5 45)
