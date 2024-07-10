@@ -1,2 +1,23 @@
 # Charger
 This is the PCB of the Charger for Spike Prime batteries
+
+## Table of Content
+
+1. [Why exists this project?](#Why)
+2. [How did we accomplish this?](#How)
+3. [Guide for you to replicate this.](#Guide)
+
+## Why
+
+First of all we are two ex students from the First Lego League Team [PaRaMeRoS](parameros.net).
+There we encountered the problem on why we are doing this:
+Our Spike Prime died on us right before an event so we used it as a charger to don't waste money.
+But all of a sudden it died completely up to the point where nothing worked.
+Then we desieded that we had to do it our selfs to stay prepared for our contests.
+Also we thought that we could build a few of them so we can charde our Spike Batteries parallel.
+
+## How
+
+## Guide
+
+## Sumary
