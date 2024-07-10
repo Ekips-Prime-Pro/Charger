@@ -21,7 +21,7 @@ Also we thought that we could build a few of them so we can charde our Spike Bat
 First of all we searched online for the limited datasheets from Lego(Thanks Lego),
 after that we created a Collection of all the important Information that we had.
 wutz that information we continued by sesrching for a PCB programm in that process we
-decided to use [KiCad](https://www.kicad.com). There we started by placing the input and the 
+decided to use [KiCad](https://www.kicad.org). There we started by placing the input and the 
 
 ## Guide
 
