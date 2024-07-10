@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C1210C475K4PACTU"
+   (description "SMD Comm X5R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 85C, -55C, X5R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 105 mg, 1210, 3.2mm, 2.5mm, 1.9mm, 0.5mm, 2000, 78  Weeks, 70")
+   (family "CAP")
+   (package "C1210")
+   (attribute "Datasheet Link" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf")
+   (attribute "Mouser Part Number" "80-C1210C475K4P")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C1210C475K4PACTU?qs=h6iWZq5I5zzggFI3%252BZG1%2FA%3D%3D")
+   (attribute "Manufacturer_Name" "KEMET")
+   (attribute "Manufacturer_Part_Number" "C1210C475K4PACTU")
+   (gate
+    (symbol "C1210C475K4PACTU")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "C1210C475K4PACTU"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "C1210"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.65 1.25)
+      (pt 1.65 1.25)
+      (pt 1.65 -1.25)
+      (pt -1.65 -1.25)
+      (pt -1.65 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.6 0) (pt -2.5 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.875 2.25)
+      (pt 2.875 2.25)
+      (pt 2.875 -2.25)
+      (pt -2.875 -2.25)
+      (pt -2.875 2.25))))
+   (leg 1 (pt -1.5 0) (padstack 0))
+   (leg 2 (pt 1.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.15 2.7 0 0 90))
+   )
+   (model "C1210C475K4PACTU.stp"
+    (euler 90 0 0)
+    (offset -1.7000000476837158 -1.350000023841858 0)
+   )
+  )
+ )
+)

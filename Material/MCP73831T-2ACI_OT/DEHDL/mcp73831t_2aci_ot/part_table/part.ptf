@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP73831T_2ACI_OT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "IOUT_MAX", "IOUT_MIN", "IGND", "RCA", "RJC", "TECHNOLOGY", "VDD_MAX", "VDD_MIN", "IDDQ", "ISS";
+{========================================================================================}
+ "Microchip", "MCP73831T-2ACI/OT" (!) = "", "SOT95P270X145-5N", "SOT23 (5-Pin)", "579-MCP73831T-2ACIOT", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D", "Li-Ion Charge Controller 4.2V SOT23-5", "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf", "1.45 mm", "125", "", "", "", "CHARGE MANAGEMENT CONTROLLERS SMD", "SOT-23", "230", "", "", "", "", "", "", "7", "", "", "1500u"
+END_PART
+
+END.

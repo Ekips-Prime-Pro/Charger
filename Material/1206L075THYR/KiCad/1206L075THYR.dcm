@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1206L075THYR
+D Resettable Fuses - PPTC PTC 8V 1206 0.75A POLYFUSE SMD THIN
+K
+F https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

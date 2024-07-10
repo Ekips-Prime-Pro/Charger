@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERJ-2RHD1401X
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2021-02-19 22:25:11
+Downloaded=2024-07-10 22:34:28
+3D=Y

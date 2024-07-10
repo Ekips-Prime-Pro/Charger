@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=1206L075THYR
+PartCategory=Resettable Fuse
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2019-08-08 15:17:51
+Downloaded=2024-07-10 23:05:13
+3D=Y

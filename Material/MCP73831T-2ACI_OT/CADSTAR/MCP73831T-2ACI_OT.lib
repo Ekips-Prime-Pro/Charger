@@ -1,0 +1,16 @@
+.MCP73831T-2ACI_OT :1 ;Li-Ion Charge Controller 4.2V SOT23-5
+SOT95P270X145-5N
+*STM IC
+*NGS
+*PLB 1="STAT" 2="VSS" 3="VBAT" 4="VDD" 5="PROG"
+*MXP 5
+*DFN MCP73831T-2ACI_OT
+~!Mouser Part Number (579-MCP73831T-2ACIOT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP73831T-2ACI/OT)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf)
+~!Height (1.45mm)
+~!3D_Model (MCP73831T-2ACI_OT)
+MCP73831T-2ACI_OT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

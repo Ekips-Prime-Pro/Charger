@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C1210C475K4PACTU'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "KEMET", "C1210C475K4PACTU" (!) = "", "C1210", "Other", "80-C1210C475K4P", "https://www.mouser.co.uk/ProductDetail/KEMET/C1210C475K4PACTU?qs=h6iWZq5I5zzggFI3%252BZG1%2FA%3D%3D", "SMD Comm X5R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 85C, -55C, X5R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 105 mg, 1210, 3.2mm, 2.5mm, 1.9mm, 0.5mm, 2000, 78  Weeks, 70", "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+END_PART
+
+END.

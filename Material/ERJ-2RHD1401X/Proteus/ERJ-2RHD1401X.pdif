@@ -1,0 +1,94 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ERJ-2RHD1401X"
+   (description "PANASONIC - ERJ2RHD1401X - SMD Chip Resistor, 1.4 kohm, +/- 0.5%, 62.5 mW, 0402 [1005 Metric], Thick Film, Precision")
+   (family "RES")
+   (package "ERJ2RKD1004X")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Mouser Part Number" "667-ERJ-2RHD1401X")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RHD1401X/?qs=pfd5qewlna6909D37C4OaA%3D%3D")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "ERJ-2RHD1401X")
+   (gate
+    (symbol "ERJ-2RHD1401X")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ERJ-2RHD1401X"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ERJ2RKD1004X"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.175 0.55)
+      (pt 1.175 0.55)
+      (pt 1.175 -0.55)
+      (pt -1.175 -0.55)
+      (pt -1.175 0.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 0.25)
+      (pt 0.5 0.25)
+      (pt 0.5 -0.25)
+      (pt -0.5 -0.25)
+      (pt -0.5 0.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.95 0.025)
+      (arc (pt -0.950 0.025) (pt -0.975 -0.025) (pt -0.925 0.025) (start 180.0) (sweep 90.0))
+      (pt -0.95 -0.025)
+      (arc (pt -0.950 -0.025) (pt -0.975 -0.025) (pt -0.925 0.025) (start 180.0) (sweep -90.0))
+      (pt -0.95 0.025))))
+   (leg 1 (pt -0.512 0.000) (padstack 0))
+   (leg 2 (pt 0.512 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.475 0.500 0 0 90.000))
+   )
+   (model "ERJ-2RHD1401X.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

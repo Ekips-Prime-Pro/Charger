@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C1210C475K4PACTU
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=5.1
+Released=2022-03-28 12:49:19
+Downloaded=2024-07-10 22:54:00
+3D=Y

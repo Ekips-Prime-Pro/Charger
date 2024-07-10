@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_13346873"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-19-22:25:11)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ERJ-2RHD1401X")
+)
+
+
+(pinAssign "ECS_13346873"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-19-22:25:11)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13346873")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ERJ-2RHD1401X")
+)
+
+
+(part "ERJ-2RHD1401X"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-19-22:25:11)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "ERJ-2RHD1401X")
+    (pinAssignRef "ECS_13346873")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "PANASONIC - ERJ2RHD1401X - SMD Chip Resistor, 1.4 kohm, +/- 0.5%, 62.5 mW, 0402 [1005 Metric], Thick Film, Precision")
+    (property "Mouser_Part_Number" "667-ERJ-2RHD1401X")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RHD1401X/?qs=pfd5qewlna6909D37C4OaA%3D%3D")
+    (property "Manufacturer_Name" "Panasonic")
+    (property "Manufacturer_Part_Number" "ERJ-2RHD1401X")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 0.4)
+)
+
+

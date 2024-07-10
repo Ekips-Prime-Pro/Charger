@@ -1,0 +1,16 @@
+.RC0603FR-071KL :1 ;Res Thick Film 0603 1K Ohm 1% 0.1W(1/10W) +/-100ppm/C Epoxy Pad SMD T/R
+RESC1608X55N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RC0603FR-071KL
+~!Mouser Part Number (603-RC0603FR-071KL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D)
+~!Manufacturer_Name (YAGEO)
+~!Manufacturer_Part_Number (RC0603FR-071KL)
+~!Link Datasheet (https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf)
+~!Height (0.55mm)
+~!3D_Model (RC0603FR-071KL)
+RC0603FR-071KL
+1.1!U 2.1!U 

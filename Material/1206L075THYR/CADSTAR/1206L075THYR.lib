@@ -1,0 +1,16 @@
+.1206L075THYR :1 ;Resettable Fuses - PPTC PTC 8V 1206 0.75A POLYFUSE SMD THIN
+"1206L05015YR"
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 1206L075THYR
+~!Mouser Part Number (576-1206L075THYR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/1206L075THYR?qs=eUFwbO5xkChRsIXzzQG%2FMA%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (1206L075THYR)
+~!Link Datasheet (https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf)
+~!Height (0.75mm)
+~!3D_Model (1206L075THYR)
+"1206L075THYR"
+1.1!U 2.1!U 

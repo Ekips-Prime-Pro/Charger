@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_395484"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-03-28-12:49:19)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C1210C475K4PACTU")
+)
+
+
+(pinAssign "ECS_395484"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-03-28-12:49:19)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_395484")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C1210C475K4PACTU")
+)
+
+
+(part "C1210C475K4PACTU"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-03-28-12:49:19)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "C1210C475K4PACTU")
+    (pinAssignRef "ECS_395484")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "SMD Comm X5R, Ceramic, 4.7 uF, 10%, 16 VDC, 40 VDC, 85C, -55C, X5R, SMD, MLCC, Temperature Stable, Class II, 10 % , 21.3 MOhms, 105 mg, 1210, 3.2mm, 2.5mm, 1.9mm, 0.5mm, 2000, 78  Weeks, 70")
+    (property "Mouser_Part_Number" "80-C1210C475K4P")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C1210C475K4PACTU?qs=h6iWZq5I5zzggFI3%252BZG1%2FA%3D%3D")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "C1210C475K4PACTU")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf")
+)
+
+

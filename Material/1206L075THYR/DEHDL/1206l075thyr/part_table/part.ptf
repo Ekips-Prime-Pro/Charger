@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1206L075THYR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "1206L075THYR" (!) = "", "1206L05015YR", "Other", "576-1206L075THYR", "https://www.mouser.co.uk/ProductDetail/Littelfuse/1206L075THYR?qs=eUFwbO5xkChRsIXzzQG%2FMA%3D%3D", "Resettable Fuses - PPTC PTC 8V 1206 0.75A POLYFUSE SMD THIN", "https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf", "0.75 mm"
+END_PART
+
+END.

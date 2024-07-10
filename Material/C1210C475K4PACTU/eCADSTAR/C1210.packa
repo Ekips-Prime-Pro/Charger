@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C1210C475K4PACTU"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-28-12:49:18)
+    (mountForm default
+        (footprintRef "C1210")
+        (spec "System")
+    )
+)

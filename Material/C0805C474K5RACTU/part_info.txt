@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C0805C474K5RACTU
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=8.1
+Released=2017-10-10 06:08:09
+Downloaded=2024-07-10 22:53:54
+3D=Y

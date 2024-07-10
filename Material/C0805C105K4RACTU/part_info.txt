@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C0805C105K4RACTU
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=10.1
+Released=2017-01-10 16:36:31
+Downloaded=2024-07-10 22:54:06
+3D=Y
