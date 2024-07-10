@@ -9,7 +9,7 @@ This is the PCB of the Charger for Spike Prime batteries
 
 ## Why
 
-First of all we are two ex students from the First Lego League Team [PaRaMeRoS](www.parameros.net).
+First of all we are two ex students from the First Lego League Team [PaRaMeRoS](https://www.parameros.net).
 There we encountered the problem on why we are doing this:
 Our Spike Prime died on us right before an event so we used it as a charger to don't waste money.
 But all of a sudden it died completely up to the point where nothing worked.
@@ -21,7 +21,7 @@ Also we thought that we could build a few of them so we can charde our Spike Bat
 First of all we searched online for the limited datasheets from Lego(Thanks Lego),
 after that we created a Collection of all the important Information that we had.
 wutz that information we continued by sesrching for a PCB programm in that process we
-decided to use [KiCad](www.kicad.com). There we started by placing the input and the 
+decided to use [KiCad](https://www.kicad.com). There we started by placing the input and the 
 
 ## Guide
 
