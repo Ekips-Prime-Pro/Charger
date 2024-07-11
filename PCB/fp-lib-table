@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1206L075THYR")(type "KiCad")(uri "C:/Users/Maxi/Desktop/Github repos/Charger/Material/1206L075THYR/1206L075THYR")(options "")(descr ""))
+  (lib (name "C0805C105K4RACTU")(type "KiCad")(uri "C:/Users/Maxi/Desktop/Github repos/Charger/Material/C0805C105K4RACTU/C0805C105K4RACTU")(options "")(descr ""))
+  (lib (name "C0805C474K5RACTU")(type "KiCad")(uri "C:/Users/Maxi/Desktop/Github repos/Charger/Material/C0805C474K5RACTU/C0805C474K5RACTU")(options "")(descr ""))
+  (lib (name "C1210C475K4PACTU")(type "KiCad")(uri "C:/Users/Maxi/Desktop/Github repos/Charger/Material/C1210C475K4PACTU/C1210C475K4PACTU")(options "")(descr ""))
+  (lib (name "ERJ-2RHD1401X")(type "KiCad")(uri "C:/Users/Maxi/Desktop/Github repos/Charger/Material/ERJ-2RHD1401X/ERJ-2RHD1401X")(options "")(descr ""))
+  (lib (name "RC0603FR-071KL")(type "KiCad")(uri "C:/Users/Maxi/Desktop/Github repos/Charger/Material/RC0603FR-071KL/RC0603FR-071KL")(options "")(descr ""))
+)

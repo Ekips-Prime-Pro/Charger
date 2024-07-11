@@ -1826,7 +1826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "C0805C474K5RACTU:C0805"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -2086,7 +2086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240Ω"
+		(property "Value" "1206L05015YR"
 			(at 144.78 91.4399 0)
 			(effects
 				(font
@@ -2095,7 +2095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "1206L075THYR:1206L05015YR"
 			(at 140.462 90.17 90)
 			(effects
 				(font
@@ -2362,7 +2362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "ERJ-2RHD1401X:ERJ2RKD1004X"
 			(at 145.542 99.06 90)
 			(effects
 				(font
@@ -2423,7 +2423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4,5uF"
+		(property "Value" "4,7uF"
 			(at 184.15 93.9862 0)
 			(effects
 				(font
@@ -2432,7 +2432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "C1210C475K4PACTU:C1210"
 			(at 181.61 92.71 0)
 			(effects
 				(font
@@ -2581,7 +2581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "ERJ-2RHD1401X:ERJ2RKD1004X"
 			(at 128.27 99.568 90)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "C0805C105K4RACTU:C0805"
 			(at 121.92 76.2 0)
 			(effects
 				(font
