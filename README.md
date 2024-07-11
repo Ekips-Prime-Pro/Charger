@@ -22,7 +22,12 @@ First of all we searched online for the limited datasheets from Lego(Thanks Lego
 after that we created a Collection of all the important Information that we had.
 wutz that information we continued by sesrching for a PCB programm in that process we
 decided to use [KiCad](https://www.kicad.org). There we started by placing the input and the 
-Output for the Batterie(7,3V/1A) and the Barrel Jack(12v/2A). 
+Output for the Batterie(7,3V/1A) and the Barrel Jack(12v/2A). We considerd the differenz
+for the input and the output of the PCB.
+Form that we build a plan for regulating the voltage and then using an battery charging 
+regulator in our case an 12-7,3 V /1A Voltage Regulator LM317-POT-128 and the Charging 
+regulator MCP73831-OT-23. Then we looked at the Datasheets of the CMD's and connected them
+for the Chip appropriate.
 
 ## Guide
 
