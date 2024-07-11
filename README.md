@@ -25,9 +25,9 @@ decided to use [KiCad](https://www.kicad.org). There we started by placing the i
 Output for the Batterie(7,3V/1A) and the Barrel Jack(12v/2A). We considerd the differenz
 for the input and the output of the PCB.
 Form that we build a plan for regulating the voltage and then using an battery charging 
-regulator in our case an 12-7,3 V /1A Voltage Regulator LM317-POT-128 and the Charging 
-regulator MCP73831-OT-23. Then we looked at the Datasheets of the CMD's and connected them
-for the Chip appropriate.
+regulator in our case an 12-7,3 V /1A Voltage Regulator [LM317-POT-128]() and the Charging 
+regulator [MCP73831-OT-23](https://github.com/Ekips-Prime-Pro/Charger/blob/5f66ce05a6301ec8a03dad4ef41c37c246556ab5/Material/MCP73831-Family-Data-Sheet-DS20001984H.pdf). 
+Then we looked at the Datasheets of the CMD's and connected them for the Chip appropriate.
 
 ## Guide
 
