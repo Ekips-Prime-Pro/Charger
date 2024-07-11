@@ -22,6 +22,7 @@ First of all we searched online for the limited datasheets from Lego(Thanks Lego
 after that we created a Collection of all the important Information that we had.
 wutz that information we continued by sesrching for a PCB programm in that process we
 decided to use [KiCad](https://www.kicad.org). There we started by placing the input and the 
+Output for the Batterie(7,3V/1A) and the Barrel Jack(12v/2A). 
 
 ## Guide
 
