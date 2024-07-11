@@ -5,7 +5,8 @@ This is the PCB of the Charger for Spike Prime batteries
 
 1. [Why exists this project?](#Why)
 2. [How did we accomplish this?](#How)
-3. [Guide for you to replicate this.](#Guide)
+3. [What do you Need to do it yourself?](#What)
+4. [Guide for you to replicate this.](#Guide)
 
 ## Why
 
@@ -28,6 +29,8 @@ Form that we build a plan for regulating the voltage and then using an battery c
 regulator in our case an 12-7,3 V /1A Voltage Regulator [LM317-POT-128]() and the Charging 
 regulator [MCP73831-OT-23](https://github.com/Ekips-Prime-Pro/Charger/blob/5f66ce05a6301ec8a03dad4ef41c37c246556ab5/Material/MCP73831-Family-Data-Sheet-DS20001984H.pdf). 
 Then we looked at the Datasheets of the CMD's and connected them for the Chip appropriate.
+
+## What
 
 ## Guide
 
