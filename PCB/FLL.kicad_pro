@@ -481,7 +481,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../AppData/Local/Programs/KiCad/8.0/",
-      "plot": "",
+      "plot": "../Material/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
