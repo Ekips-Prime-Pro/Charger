@@ -32,6 +32,11 @@ Then we looked at the Datasheets of the CMD's and connected them for the Chip ap
 
 ## What
 
+To Assemble it your self you need:
+1. A copy of the pcb
+2. all of the parts in the [parts list](#)
+3. A heatgun and a soldering iron
+
 ## Guide
 
 ## Sumary
