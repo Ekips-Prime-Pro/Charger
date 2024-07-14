@@ -36,7 +36,10 @@ To Assemble it your self you need:
 1. A copy of the pcb
 2. all of the parts in the [parts list](#)
 3. A heatgun and a soldering iron
+4. Soldering paste
 
 ## Guide
+
+First
 
 ## Sumary
