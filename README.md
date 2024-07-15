@@ -40,6 +40,6 @@ To Assemble it your self you need:
 
 ## Guide
 
-First
+First you have to download the 
 
 ## Sumary
