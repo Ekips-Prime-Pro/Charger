@@ -43,3 +43,7 @@ To Assemble it your self you need:
 First you have to download the 
 
 ## Sumary
+
+Over all the PCB is for those that are interested in learning about the Spike Prime Environment.
+If you don't have any experience you should not replicate this.
+Some more interesting information are:
