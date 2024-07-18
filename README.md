@@ -47,3 +47,4 @@ First you have to download the
 Over all the PCB is for those that are interested in learning about the Spike Prime Environment.
 If you don't have any experience you should not replicate this.
 Some more interesting information are:
+Lego isn't our friend.
