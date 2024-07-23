@@ -25,7 +25,7 @@
           "units_format": 1
         },
         "fab_line_width": 0.1,
-        "fab_text_italic": true,
+        "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.01,
-          "height": 2.01,
-          "width": 2.01
+          "drill": 2.5,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -440,13 +440,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "RC0603FR-071KL_(1 kOhms)"
-    ],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": [
+      "240Ohm_RC0603FR-07240RL",
+      "MCP_MCP73831T-2ACI_OT",
+      "Fuse_65600001009"
+    ]
   },
   "meta": {
-    "filename": "FLL.kicad_pro",
+    "filename": "PCB 2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -480,19 +482,19 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../AppData/Local/Programs/KiCad/8.0/",
-      "plot": "../Material/",
+      "netlist": "",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "Zeichenblatt.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\Material\\FLL.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -535,32 +537,20 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Beschreibung",
-          "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referenz"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -589,16 +579,8 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
-    "page_layout_descr_file": "",
+    "net_format_name": "",
+    "page_layout_descr_file": "Zeichenblatt.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -611,7 +593,7 @@
   },
   "sheets": [
     [
-      "eebf961a-9e34-427c-a1d5-e0dfc5b48cc6",
+      "e8e13375-0c31-4346-983d-59b67e836dcd",
       "Stammblatt"
     ]
   ],

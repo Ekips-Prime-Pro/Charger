@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ERJ-2RHD1401X
+#/13346873/1438280/2.50/2/5/Resistor
+DEF ERJ-2RHD1401X R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-2RHD1401X" 550 150 50 H V L CNN
+F2 "ERJ2RKD1004X" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "PANASONIC - ERJ2RHD1401X - SMD Chip Resistor, 1.4 kohm, +/- 0.5%, 62.5 mW, 0402 [1005 Metric], Thick Film, Precision" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-2RHD1401X" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RHD1401X/?qs=pfd5qewlna6909D37C4OaA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-2RHD1401X" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

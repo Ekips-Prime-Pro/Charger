@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC0603FR-07240RL
+D Res Thick Film 0603 240 Ohm 1% 0.1W(1/10W) +/-100ppm/C Epoxy Pad SMD T/R
+K
+F https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf
+$ENDCMP
+#
+#End Doc Library

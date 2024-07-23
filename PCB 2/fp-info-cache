@@ -1,4 +1,46 @@
-23640354364384258
+23654127798316938
+0.47uF_(C0805C474K5RACTU)
+C0805
+C0805
+Capacitor
+0
+2
+2
+1.4kOhms_(ERJ-2RHD1401X)
+ERJ2RKD1004X
+ERJ-2R(0402)
+Resistor
+0
+2
+2
+1kOhms_(RC0603FR-071KL)
+RESC1608X55N
+RC0603
+Resistor
+0
+2
+2
+1uF_(C0805C105K4RACTU)
+C0805
+C0805
+Capacitor
+0
+2
+2
+4.7uF_(C1210C475K4PACTU)
+C1210
+C1210
+Capacitor
+0
+2
+2
+240Ohm_(RC0603FR-07240RL)
+RESC1608X55N
+RC0603
+Resistor
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57672,6 +57714,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Fuse_(65600001009)
+65600001009
+65600001009
+Hardware
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -64637,6 +64686,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP_(MCP73831T-2ACI_OT)
+SOT95P270X145-5N
+(OT) [SOT-23]
+Integrated Circuit
+0
+5
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

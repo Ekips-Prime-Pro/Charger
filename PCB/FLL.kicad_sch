@@ -2660,76 +2660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c48bd54-aa5f-4d76-8d04-bbfde19bf392")
-		(property "Reference" "POT1"
-			(at 144.78 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1206L05015YR"
-			(at 144.78 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1206L075THYR:1206L05015YR"
-			(at 140.462 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "240Ω"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5122fb15-22f7-4bc1-bfb5-afb9f81c3759")
-		)
-		(pin "1"
-			(uuid "b01f7ef5-4cef-48f7-a7e1-88cde3dac9f0")
-		)
-		(instances
-			(project ""
-				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "POT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+7.5V")
 		(at 181.61 71.12 0)
 		(unit 1)
@@ -2790,6 +2720,76 @@
 			(project ""
 				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c7ac33-eaf5-4940-9ec7-83a9c636c0e3")
+		(property "Reference" "POT1"
+			(at 144.78 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "240Ω"
+			(at 144.78 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ERJ-2RHD1401X:ERJ2RKD1004X "
+			(at 140.462 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c36e96e-7f98-43c8-8075-8a95977f33bd")
+		)
+		(pin "1"
+			(uuid "c73baad4-7f48-4e3d-bd37-48783fb57b7f")
+		)
+		(instances
+			(project "FLL"
+				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
+					(reference "POT1")
 					(unit 1)
 				)
 			)
@@ -3292,7 +3292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db439160-dbb4-4786-8d37-7f13b75520c9")
-		(property "Reference" "M1|12V/1A"
+		(property "Reference" "M1|12V/1A1"
 			(at 59.182 91.694 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 		(instances
 			(project ""
 				(path "/eebf961a-9e34-427c-a1d5-e0dfc5b48cc6"
-					(reference "M1|12V/1A")
+					(reference "M1|12V/1A1")
 					(unit 1)
 				)
 			)

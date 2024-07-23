@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 65600001009
+D Molded Base PC Mount Fuse Block For 520mm Fuses
+K
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=7143dbe7-66cc-46d0-a668-04c7d18969fc&filename=littelfuse-fuse-block-656-datasheet
+$ENDCMP
+#
+#End Doc Library
