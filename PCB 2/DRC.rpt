@@ -1,0 +1,146 @@
+** Drc report for PCB 2.kicad_pcb **
+** Created on 2024-07-23T11:12:53+0200 **
+
+** Found 18 DRC violations **
+[shorting_items]: Elemente, die zwei Netze kurzschließen (Netze unconnected-(U2-STAT-Pad1) und /STAT)
+    Local override; error
+    @(25,3000 mm, 33,8500 mm): Leiterbahn [unconnected-(U2-STAT-Pad1)] auf F.Cu, Länge 0,6500 mm
+    @(25,3000 mm, 33,8500 mm): Pad 1 [/STAT] von U2 auf F.Cu
+[shorting_items]: Elemente, die zwei Netze kurzschließen (Netze unconnected-(U2-STAT-Pad1) und /STAT)
+    Local override; error
+    @(25,2916 mm, 33,8416 mm): Leiterbahn [unconnected-(U2-STAT-Pad1)] auf F.Cu, Länge 0,0119 mm
+    @(25,3000 mm, 33,8500 mm): Pad 1 [/STAT] von U2 auf F.Cu
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,3500 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(16,7500 mm, 14,7500 mm): Abschnitt auf Edge.Cuts
+    @(23,7500 mm, 15,5000 mm): Leiterbahn [GND] auf F.Cu, Länge 0,4243 mm
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,3500 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(16,7500 mm, 14,7500 mm): Abschnitt auf Edge.Cuts
+    @(23,4500 mm, 15,2000 mm): Leiterbahn [GND] auf F.Cu, Länge 4,5500 mm
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,3500 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(16,7500 mm, 14,7500 mm): Abschnitt auf Edge.Cuts
+    @(18,9000 mm, 15,2000 mm): Leiterbahn [GND] auf F.Cu, Länge 0,5657 mm
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(21,5000 mm, 30,7500 mm): PCB-Text "FAN" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(21,5000 mm, 27,2500 mm): PCB-Text "FAN" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(28,2500 mm, 32,2500 mm): PCB-Text "STAT" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(25,2500 mm, 32,2500 mm): PCB-Text "+7.3V" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(25,2500 mm, 28,7500 mm): PCB-Text "GND" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(28,2500 mm, 28,7500 mm): PCB-Text "-7.3V" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(16,7500 mm, 18,5000 mm): PCB-Text "-12V" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(17,5000 mm, 30,7500 mm): PCB-Text "-12V" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(20,2500 mm, 18,5000 mm): PCB-Text "+12V" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(17,5000 mm, 27,2500 mm): PCB-Text "+12V" auf F.Silkscreen
+[text_height]: Schrifthöhe außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe min. Breite 0,8000 mm; tatsächlich 0,7000 mm)
+    Rule: Einschränkungen aus Platinenkonfiguration zur Bestückungsdruckhöhe; warning
+    @(23,7500 mm, 18,5000 mm): PCB-Text "GND" auf F.Silkscreen
+[solder_mask_bridge]: Vorderseitige Lötstoppöffnung über Elementen mit verschiedenen Netzen
+    Rule: Mindestbreite der Lötstoppmaske aus Platinenkonfiguration; error
+    @(25,2916 mm, 33,8416 mm): Leiterbahn [unconnected-(U2-STAT-Pad1)] auf F.Cu, Länge 0,0119 mm
+    @(25,3000 mm, 33,8500 mm): Pad 1 [/STAT] von U2 auf F.Cu
+[solder_mask_bridge]: Vorderseitige Lötstoppöffnung über Elementen mit verschiedenen Netzen
+    Rule: Mindestbreite der Lötstoppmaske aus Platinenkonfiguration; error
+    @(25,3000 mm, 33,8500 mm): Leiterbahn [unconnected-(U2-STAT-Pad1)] auf F.Cu, Länge 0,6500 mm
+    @(25,3000 mm, 33,8500 mm): Pad 1 [/STAT] von U2 auf F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 22 Footprint errors **
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(28,2500 mm, 27,2500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(25,2500 mm, 27,2500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(20,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(27,5000 mm, 46,0000 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(23,7500 mm, 16,7500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(20,2500 mm, 27,2500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(16,7500 mm, 16,7500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(20,2500 mm, 16,7500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(40,2500 mm, 17,2500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[duplicate_footprints]: Doppelte Footprints
+    Local override; warning
+    @(28,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[missing_footprint]: Fehlender Footprint M1 (Pengda Technology (Fan))
+    Local override; warning
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(25,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(28,2500 mm, 27,2500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(25,2500 mm, 27,2500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(20,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(27,5000 mm, 46,0000 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(23,7500 mm, 16,7500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(20,2500 mm, 27,2500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(16,7500 mm, 16,7500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(20,2500 mm, 16,7500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(40,2500 mm, 17,2500 mm): Footprint <kein Referenzbezeichner>
+[extra_footprint]: Zusätzlicher Footprints
+    Local override; warning
+    @(28,2500 mm, 30,7500 mm): Footprint <kein Referenzbezeichner>
+
+** End of Report **
