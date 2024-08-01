@@ -22,7 +22,7 @@ Also we thought that we could build a few of them so we can charde our Spike Bat
 
 First of all we searched online for the limited [datasheets](https://github.com/Ekips-Prime-Pro/Charger/blob/5f66ce05a6301ec8a03dad4ef41c37c246556ab5/Material/SPIKE_Prime_Battery_Tech_Spec_Sheet.pdf) from Lego(Thanks Lego),
 after that we created a Collection of all the important Information that we had.
-wutz that information we continued by sesrching for a PCB programm in that process we
+With that information we continued by sesrching for a PCB programm in that process we
 decided to use [KiCad](https://www.kicad.org). There we started by placing the input and the 
 Output for the Batterie(7,3V/1A) and the Barrel Jack(12v/2A). We considerd the differenz
 for the input and the output of the PCB.
